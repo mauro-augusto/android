@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de responsividade</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat minima saepe esse officiis molestias. Reprehenderit cupiditate quidem cum dolorem aliquid nam, at illum debitis cumque ea distinctio, impedit rerum possimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptatem ullam esse quidem voluptates. Dolores quae doloremque labore. Dicta ipsa commodi voluptas nesciunt aperiam quos voluptate quam consequatur reprehenderit deleniti. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati deserunt labore atque libero, aliquam natus velit doloribus dolor placeat amet esse soluta corporis voluptatum ut ea, ipsum eveniet quo explicabo.</p>
+        <picture> 
+            <!-- A imagem de srcset carregará até no máximo 600px, após isso a imagem será a padrão (maior)-->
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg"> 
+
+            <!-- imagem padrão-->
+            <img src="imagens/irina-blok.jpg" alt="irina">
+        </picture>
+        <p>lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, atque velit. Nobis, minus at? Perspiciatis sed minus necessitatibus accusantium nulla ullam, autem aspernatur non sapiente consequuntur amet, voluptatem odio praesentium? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit laudantium nihil odit et delectus quos, iure eaque omnis, aliquam reiciendis quisquam dolor sequi. Praesentium ratione, in ipsa similique labore nam.</p>
+    </main>
+</body>
+</html>
